@@ -99,7 +99,7 @@ read and refer to https://eloquentjavascript.net/02_program_structure.html  ther
 function createGrid(){
     const size =8
     for(let i=0; i<size; i++){
-        if(i%2===0){
+        if(i%2===1){
             console.log('# # # #');
         }else{
             console.log(' # # # #');
